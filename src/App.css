@@ -30,3 +30,49 @@
     transform: rotate(360deg);
   }
 }
+.current_weather_container {
+  background-color:aliceblue;
+  display:flex;
+  justify-content:center;
+}
+.current_weather_container .area{
+  width:30%;
+  align-items:center;
+  display:flex;
+}
+.current_weather_container .area span{
+  display:block;
+  width:100%;
+}
+.current_weather_container .lastupdated{
+  width:30%;
+  display:flex;
+  align-items:center;
+}
+.current_weather_container .current_weather{
+  width:30%;
+  dispaly:flex;
+  align-items:center;
+}
+
+.temp_c{
+  height:4rem;
+  display:inline-block;
+}
+
+
+.wt-cont{
+  display:grid;
+  grid-template-columns:15% 15% 15% 15% 15%;
+  grid-column-gap:2rem;
+  grid-row-gap:2rem;
+  justify-content:center;
+
+}
+.container_item{
+  height:280px;
+  background-color:#7eda41;
+  display:grid;
+  border:1px solid black;
+  box-shadow:2px 2px 2px 2px green;
+}

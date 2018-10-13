@@ -10,7 +10,7 @@ const forecastUI= props =>{
                     return <div className="container_item" key={index}>{element.date}
                         <div>
                             <div>
-                                <div>{element.day.maxtemp_c}ffff</div>
+                                <div>{element.day.maxtemp_c}ff</div>
                                 <div>{element.day.mintemp_c}</div>
                             </div>
                             <div>
